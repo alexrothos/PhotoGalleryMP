@@ -1,0 +1,9 @@
+{
+    "db": {
+        "url":"",
+        "username":"",
+        "password":""
+    },
+    "domain":"rothos.eu",
+    "droplet":""
+}

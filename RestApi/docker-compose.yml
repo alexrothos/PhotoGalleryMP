@@ -5,9 +5,9 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 10000:10000
+      - 10001:10001
     volumes:
-      - .:/admin_app
+      - .:/rest_api
     depends_on:
       - db
   # db:
@@ -31,7 +31,7 @@ services:
       POSTGRES_PASSWORD: root
       POSTGRES_ROOT_PASSWORD: root
     ports:
-      - 5432:5432
+      - 5435:5432
     volumes:
       - ./data:/var/lib/postgresql/data
 
